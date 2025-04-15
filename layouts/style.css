@@ -1,0 +1,83 @@
+  .example-modal .modal {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    display: block;
+    z-index: 1;
+  }
+
+  .example-modal .modal {
+    background: transparent !important;
+
+  }
+ /* Sidebar */
+.main-sidebar {
+    width: 235px;
+    height: 100vh;
+    /*background: #282A35;*/
+    /*color: white;*/
+    position: fixed;
+    /*left: 0;*/
+    /*top: 0;*/
+    /*bottom: 0;*/
+    overflow-y: auto;
+}
+
+/*.main-header {*/
+/*    position:fixed; */
+    /*height:45px; */
+    /*width:100vw;*/
+    /*min-width:100%;*/
+/*}*/
+
+.wrapper{
+    padding-top:50px;
+    height:100vh;
+}
+
+/* Topbar */
+/*.nav {*/
+    /*width: calc(100% - 235px);*/
+/*    height: 45px;*/
+/*    background: #04AA6D;*/
+    /*color: white;*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 245px;*/
+/*    display: flex;*/
+/*}*/
+
+/* Main content */
+/*.content {*
+/*    margin-left: 250px;*/
+/*    margin-top: 50px;*/
+/*    padding: 20px;*/
+/*    width: calc(100% - 250px);*/
+/*    min-height: calc(100vh - 50px);*/
+/*}*/
+
+/* Footer */
+/*.main-footer {*/
+    /*width: calc(100vw - 235px);*/
+    /*height: 50px;*/
+    /*background: #333;*/
+    /*color: white;*/
+    /*position: fixed;*/
+/*    margin-top:auto;*/
+/*    margin-bottom: 0;*/
+/*    left: 5px;*/
+/*    right:50px;*/
+/*    width: 100%;*/
+/*    padding-right: 150px;*/
+/*}*/
+
+
+    .salary-table th, .salary-table td { text-align: right; padding: 5px; }
+    .salary-table th:first-child, .salary-table td:first-child { text-align: left; }
+    .title { font-weight: bold; text-transform: uppercase; color: red; }
+    .table-shadow {
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); 
+        border-radius: 8px; /* Bo góc mềm mại */
+    }
