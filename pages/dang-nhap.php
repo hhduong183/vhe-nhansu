@@ -233,7 +233,7 @@ if (isset($_POST['login'])) {
                     <span class="error animated tada" id="msg"></span>
                 </div>
                     <div class="input-group">
-                        <label for="username"><i class="fas fa-user"></i> Tên đăng nhậpqweqweqw</label>
+                        <label for="username"><i class="fas fa-user"></i> Tên đăng nhập</label>
                         <input type="text" id="username" placeholder="Nhập tên đăng nhập" required name="user_name" autocomplete="off"
                         value="<?php echo isset($_POST['user_name']) ? $_POST['user_name'] : ''; ?>">
                     </div>
