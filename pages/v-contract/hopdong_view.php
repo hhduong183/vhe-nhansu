@@ -11,7 +11,7 @@ include(ROOT_PATH .'/plugins/function.php');
 
 // Improve session check
 if (!isset($_SESSION['username'], $_SESSION['level'], $_SESSION['idNhanVien'])) {
-    die("---------------->Bạn chưa đăng nhập<--------------.");
+    die("---------------->Bạn chưa đăng nhập<--------////------.");
 }
 
 // Add user permission check
